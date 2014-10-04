@@ -26,6 +26,13 @@ into any project. The file examples.rb shows how to use:
 - LSI summarizer
 - Bayes classifier
 
+## Warning
+
+The pure Ruby code for calculating singular value decomposition (SVD) throws runtime errors is trained on very
+short text strings. The original version that uses the GNU GSL library does not have this problem.
+
+## Enjoy!
+
 Mark Watson  http://markwatson.com
 
 2014/10/04
