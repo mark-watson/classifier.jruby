@@ -28,7 +28,7 @@ into any project. The file examples.rb shows how to use:
 
 ## Warning
 
-The pure Ruby code for calculating singular value decomposition (SVD) throws runtime errors is trained on very
+The pure Ruby code for calculating singular value decomposition (SVD) throws runtime errors if trained on very
 short text strings. The original version that uses the GNU GSL library does not have this problem.
 
 ## Enjoy!
