@@ -1,3 +1,5 @@
+start = Time.now
+
 load "./classifier.rb"
 
 lsi = Classifier::LSI.new
@@ -28,3 +30,7 @@ b.train_interesting "here are some good words. I hope you love them"
 b.train_uninteresting "here are some bad words, I hate you"
 p b.classify "I hate bad words and you" # returns 'Uninteresting'
 
+
+stop = Time.now
+
+puts "Time in milliseconds: #{stop - start}"

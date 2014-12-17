@@ -14,7 +14,7 @@ if they are installed. These native gems use the GNU GSL numeric library and are
 
 ## Do use this if you are writing a JRuby application
 
-I found that, GSL issues aside, that the origianl classifier library code would not work, at least
+I found that, GSL issues aside, that the original classifier library code would not work, at least
 on my system, with JRuby, so I took the minimum code and hacked on it a bit so it works with JRuby.
 
 ## Usage
